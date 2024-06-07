@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b1a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #fbab04;
+    color: #1b1b1a;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+}
+
+body, input , textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+header nav li a {
+    color: #0a0605;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-front  {
+    width: 720px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 16px 0;
+    color: #fbab04;
+}
+
+
+section p
+{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #fbab04;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    color: #fbab04;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    color: #fbab04;
+}
+
+.mapas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mapas article {
+    width: 30%;
+}
+.mapas article img {
+    /*height: 180px; */
+    width: 100%;
+}
+.social-links img {
+    width: 48px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .container {
+    display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #fbab04;
+    color: #1b1b1a;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fcce6c;
+}
+
+input:focus, textarea:focus {
+    outline-color: #fbab04;
+}
+
+footer {
+    background-color: #fbab04;
+    color: #1b1b1a;
+    padding: 16px 0;
+}
+
+.download img {
+    width: 120px;
+}
