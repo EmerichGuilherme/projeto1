@@ -102,8 +102,10 @@ h3 {
     /*height: 180px; */
     width: 100%;
 }
-.social-links img {
-    width: 48px;
+.social-links img { 
+    height: 24px;
+    object-fit: contain;
+
 }
 
 .social-links li a {
